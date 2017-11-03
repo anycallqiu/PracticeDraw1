@@ -11,7 +11,7 @@ import android.view.View;
 
 public class Practice3DrawRectView extends View {
 
-    private Paint mPaint;
+    private Paint mPaint=new Paint();
 
     public Practice3DrawRectView(Context context) {
         super(context);
@@ -19,7 +19,6 @@ public class Practice3DrawRectView extends View {
 
     public Practice3DrawRectView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
-        mPaint=new Paint();
     }
 
     public Practice3DrawRectView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {

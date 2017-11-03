@@ -10,7 +10,7 @@ import android.view.View;
 
 public class Practice2DrawCircleView extends View {
 
-    private Paint mPaint;
+    private Paint mPaint=new Paint();
 
     public Practice2DrawCircleView(Context context) {
         super(context);
@@ -18,7 +18,6 @@ public class Practice2DrawCircleView extends View {
 
     public Practice2DrawCircleView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
-        mPaint=new Paint();
     }
 
     public Practice2DrawCircleView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
